@@ -23,18 +23,16 @@ nav a {
 /* h1, h2, h3 have been :horizontally cneter and font-size has been set individually */
 h1{
   font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
-  font-size: 30px;
   text-align: center; 
 }
 h2{
-  font-size:2rem;
+
   text-align: center;
   
 }
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
-  font-size: 1.5rem;
   
 }
 
@@ -60,14 +58,13 @@ article div {
 
 
 p {
-  font-size: 1.25rem;
+  font-size: auto;
   text-align: align;
   list-style-position: inside;
-  padding: 10px 50px 20px;
+  padding: 5px;
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.5;
-  font-size: 1.25rem;
   overflow: hidden;
 }
 
@@ -78,23 +75,27 @@ ul {
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.5;
-  font-size: 1.25rem;
   overflow: hidden;
   }
 
 li {
+  text-align: align;
+  list-style-position: inside;
+  padding: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height
    
   
 }
 
 ol {
-  text-align: center;
+  text-align: align;
   list-style-position: inside;
   padding: 0 20px;
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.5;
-  font-size: 1.25rem;
   overflow: hidden;
 }
 
